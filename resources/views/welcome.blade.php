@@ -110,7 +110,7 @@ $('#questionForm').on('submit', function(e) {
                   var truncatedText = text.substring(0, 20) + "...";
               }
 
-              $('#sidebar').children().eq(1).before('<a href="#news"><i class="fa-solid fa-message"></i>'+truncatedText+'</a>')
+              $('#sidebar').children().eq(1).before('<a><i class="fa-solid fa-message"></i> '+truncatedText+'</a>')
 
           }else{
               $(".messages > .message").last().after('<div class="right message">' +
